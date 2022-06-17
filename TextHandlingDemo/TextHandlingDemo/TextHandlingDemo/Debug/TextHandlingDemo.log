@@ -1,0 +1,20 @@
+﻿  CSVRead.cpp
+C:\Users\270159918\Downloads\TextHandlingDemo\TextHandlingDemo\TextHandlingDemo\CSVRead.cpp(34,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\270159918\Downloads\TextHandlingDemo\TextHandlingDemo\TextHandlingDemo\CSVRead.cpp(35,21): warning C4018: '<': signed/unsigned mismatch
+  CSVReplace.cpp
+C:\Users\270159918\Downloads\TextHandlingDemo\TextHandlingDemo\TextHandlingDemo\CSVReplace.cpp(10,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\270159918\Downloads\TextHandlingDemo\TextHandlingDemo\TextHandlingDemo\CSVReplace.cpp(11,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\270159918\Downloads\TextHandlingDemo\TextHandlingDemo\TextHandlingDemo\CSVReplace.cpp(13,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\270159918\Downloads\TextHandlingDemo\TextHandlingDemo\TextHandlingDemo\CSVReplace.cpp(55,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\270159918\Downloads\TextHandlingDemo\TextHandlingDemo\TextHandlingDemo\CSVReplace.cpp(56,21): warning C4018: '<': signed/unsigned mismatch
+  CSVWrite.cpp
+  OpenClose.cpp
+  Read.cpp
+  ReadWrite.cpp
+  TextHandlingDemo.cpp
+  Write.cpp
+  Generating Code...
+TextHandlingDemo.obj : error LNK2019: unresolved external symbol "void __cdecl editCSV(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?editCSV@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl editCSV(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?editCSV@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+C:\Users\270159918\Downloads\TextHandlingDemo\TextHandlingDemo\Debug\TextHandlingDemo.exe : fatal error LNK1120: 1 unresolved externals
